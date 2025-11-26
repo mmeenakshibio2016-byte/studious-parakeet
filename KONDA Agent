@@ -1,25 +1,25 @@
-Introduction :
+*Introduction :
       I am going to deveop a new simple and powerful Agentic AI tool which can automate the Temple Dharshan ticketsfor all the sevas in a fast forward manner.
-Problem:
+*Problem:
      There was a crowd  booking of tickets in online take place in  which there was a server management issue,ticket resale.
-Solution:
+*Solution:
 An Agent-AI(Kinetic Observational Neural Dharshan Automation System) works on the principle that it can automate the Ticket booking system in an accelerated manner than ever before anda rectifying the server 
 management issues.
-Architecture:
-The Agent Architecture consists of the following components
-     Components:
-       *Multimodal Inputs(The brain of my Agent):
-        Images--OCR
-        Speech--WhisperSTT
-        Text---Gemini 2.5
-         
-     -  Tools (MCP)(The Hands of My agent):
-           TicketVisionTool
-           SevaBookingTool
-          CrowdAnalyticsTool
-          Alert Tool
-          PaymentsMockTool
-     - Sequential Orchestration layer(The Nervous System):
-         Gemini Integration:
-         
-         Through google-gen AI for planning,classification,Validation
+*Architecture:
+Konda  Agent Architecture consists of the following components
+*Multimodal Inputs(The brain of my Agent):
+    This aligns directly with the "Model"component.Using Gemini2.5 and other models(whisper,OCR) as the core reasoning engine allows the agent to process diverse inputs and form a plan. 
+   This is the intelligence layer that comprehends the user's intent ("I need a ticket for X seva on Y date").   
+*Tools (MCP)(The Hands of My agent):
+ Our specific tools(SevaBookingTool,PaymentsMockTool,etc.) are examples of the function calling capabilities of an agent.They allow the agent to execute actions(changing the world) outside of the LLM.       
+The reference to MCP(Modular Component Protocol) further suggests a system designed for plug -and-play tool integration,which is a key advanced agent pattern.
+*SequentialOrchestrationLayer(The Nervous system):
+*Orchestration and The Agentic Problem-Solving Process
+This layer represents the control flow.Using Gemini for planning,classification and validatopn confirms that the agent can break down complex tasks(eg.,"Book a ticket,check crowd and pay") into a sequential steps,manage the flow between the tools, and handle errors or next steps,acting as the"Nervous System"
+Using Gemini for planning, classification, and validation confirms that the agent can break down complex tasks (e.g., "Book a ticket, check crowd, and pay") into sequential steps, manage the flow between the tools, and handle errors or next steps, acting as the "Nervous System."
+Strategic Analysis of KONDA:
+The KONDA system is best categorized as a Level 1: The Connected Problem-Solver or potentially a Level 2: The Strategic Problem-Solver (based on the taxonomy in the whitepaper).
+Level 1 Alignment: It connects the LLM (Gemini 2.5) to a set of specialized tools (TicketVisionTool, SevaBookingTool) to execute a multi-step task (booking, analysis, payment).
+Addressing the Problem: The inclusion of the CrowdAnalyticsTool and Alert Tool is particularly smart. This moves beyond simple booking automation and addresses the stated problems of "server management issue" and "crowd booking" by integrating real-time observational data and operational control.
+
+
