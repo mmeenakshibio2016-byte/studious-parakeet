@@ -1,0 +1,25 @@
+Introduction :
+      I am going to deveop a new simple and powerful Agentic AI tool which can automate the Temple Dharshan ticketsfor all the sevas in a fast forward manner.
+Problem:
+     There was a crowd  booking of tickets in online take place in  which there was a server management issue,ticket resale.
+Solution:
+An Agent-AI(Kinetic Observational Neural Dharshan Automation System) works on the principle that it can automate the Ticket booking system in an accelerated manner than ever before anda rectifying the server 
+management issues.
+Architecture:
+The Agent Architecture consists of the following components
+     Components:
+       *Multimodal Inputs(The brain of my Agent):
+        Images--OCR
+        Speech--WhisperSTT
+        Text---Gemini 2.5
+         
+     -  Tools (MCP)(The Hands of My agent):
+           TicketVisionTool
+           SevaBookingTool
+          CrowdAnalyticsTool
+          Alert Tool
+          PaymentsMockTool
+     - Sequential Orchestration layer(The Nervous System):
+         Gemini Integration:
+         
+         Through google-gen AI for planning,classification,Validation
